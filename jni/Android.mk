@@ -456,7 +456,7 @@ LOCAL_LDLIBS := -ldl -llog
 
 LOCAL_SRC_FILES := $(addprefix badvpn/, $(TUN2SOCKS_SOURCES))
 
-include $(BUILD_SHARED_EXECUTABLE)
+include $(BUILD_EXECUTABLE)
 
 ########################################################
 ## redsocks
@@ -478,4 +478,4 @@ LOCAL_CFLAGS := -std=gnu99 -DUSE_IPTABLES \
 	-I$(LOCAL_PATH)/libevent/include \
 	-I$(LOCAL_PATH)/libevent
 
-include $(BUILD_SHARED_EXECUTABLE)
+include $(BUILD_EXECUTABLE)
