@@ -1,0 +1,28 @@
+[submodule "jni/libsodium"]
+	path = jni/libsodium
+	url = https://github.com/tunnelcatvpn/libsodium
+[submodule "jni/shadowsocksr-libev"]
+	path = jni/shadowsocksr-libev
+	url = https://github.com/tunnelcatvpn/shadowsocksr-libev
+	branch = Akkariiin/master
+[submodule "jni/mbedtls"]
+	path = jni/mbedtls
+	url = https://github.com/ARMmbed/mbedtls
+[submodule "jni/libancillary"]
+	path = jni/libancillary
+	url = https://github.com/shadowsocks/libancillary
+[submodule "jni/libev"]
+	path = jni/libev
+	url = https://github.com/tunnelcatvpn/libev
+[submodule "jni/libevent"]
+	path = jni/libevent
+	url = https://github.com/shadowsocks/libevent
+[submodule "jni/badvpn"]
+	path = jni/badvpn
+	url = https://github.com/shadowsocks/badvpn
+[submodule "jni/pcre"]
+	path = jni/pcre
+	url = https://android.googlesource.com/platform/external/pcre
+[submodule "jni/redsocks"]
+	path = jni/redsocks
+	url = https://github.com/shadowsocks/redsocks
